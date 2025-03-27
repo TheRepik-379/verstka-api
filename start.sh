@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /var/www/verstka-api
-/bin/python server.py
+source "./.venv/bin/activate"
+python./server.py
